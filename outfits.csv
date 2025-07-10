@@ -1,10 +1,5 @@
-!mkdir -p data 
-# Write the CSV file 
-with open("data/outfits.csv", "w") as f: 
-    f.write("outfit,color,occasion\n") 
-    f.write("Casual Shirt and Jeans,Blue,Casual\n") 
-    f.write("Black Suit,Black,Formal\n") 
-    f.write("Red Dress,Red,Party\n") 
-    f.write("Sports Tracksuit,Grey,Sports\n") 
-    # Verify the contents 
-!cat data/outfits.csv 
+outfit,color,occasion
+Casual Shirt and Jeans,Blue,Casual
+Black Suit,Black,Formal
+Red Dress,Red,Party
+Sports Tracksuit,Grey,Sports
