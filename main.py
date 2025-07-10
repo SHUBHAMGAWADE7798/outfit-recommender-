@@ -1,9 +1,12 @@
-from recommender.outfit_recommender import OutfitRecommender
+with open("main.py", "w") as f: 
+    f.write(""" 
+from recommender.outfit_recommender import OutfitRecommender 
 
-def main():
-    recommender = OutfitRecommender("data/outfits.csv")
-    print("Recommendations for color='Red', occasion='Party':")
-    print(recommender.recommend(color='Red', occasion='Party'))
+def main(): 
+    recommender = OutfitRecommender("data/outfits.csv") 
+    print("Recommendations for color='Red', occasion='Party':") 
+    print(recommender.recommend(color='Red', occasion='Party')) 
 
-if __name__ == "__main__":
-    main()
+if __name__ == "__main__": 
+    main() 
+""")
